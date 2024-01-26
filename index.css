@@ -1,0 +1,55 @@
+body{
+    background-color: aqua;
+}
+#main-div{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 3rem;
+    font-weight: bold;
+    margin: auto;
+    width: fit-content;
+}
+#copyright{
+    font-family:cursive;
+    width: fit-content;
+    position: fixed;
+    bottom: 0;
+}
+#clockContainer {
+    /* border: 2px solid red; */
+    margin: auto;
+    height: 40vw;
+    width: 40vw;
+    background-image: url("./clock.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    position: relative;
+}
+
+#hour, #minute, #second{
+    position: absolute;
+    background-color: black;
+    border-radius: 6px;
+    transform-origin: bottom;
+}
+
+#second {
+    width: 1%;
+    height: 35%;
+    top: 15.5%;
+    left: 49.3%;
+    opacity: 0.6;
+}
+#hour {
+    width: 1%;
+    height: 23%;
+    top: 26.5%;
+    left: 49.4%;
+    
+}
+#minute {
+    width: 1%;
+    height: 30%;
+    top: 19.5%;
+    left: 49.3%;
+    opacity: 0.8;
+}
